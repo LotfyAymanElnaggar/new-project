@@ -9,7 +9,8 @@
         "prod": "npm run production",
         "production": "mix --production",
         "activity:commit": "node scripts/activity-commit.js",
-        "check:env": "node scripts/check-env.js"
+        "check:env": "node scripts/check-env.js",
+        "test:php": "php artisan test"
     },
     "devDependencies": {
         "@popperjs/core": "^2.10.2",
