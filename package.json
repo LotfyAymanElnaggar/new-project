@@ -7,7 +7,8 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "activity:commit": "node scripts/activity-commit.js"
     },
     "devDependencies": {
         "@popperjs/core": "^2.10.2",
@@ -18,6 +19,9 @@
         "postcss": "^8.1.14",
         "resolve-url-loader": "^5.0.0",
         "sass": "^1.32.11",
-        "sass-loader": "^11.0.1"
+        "sass-loader": "^11.0.1",
+        "simple-git": "^3.28.0",
+        "moment": "^2.30.1",
+        "random": "^5.4.1"
     }
 }
