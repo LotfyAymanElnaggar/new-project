@@ -8,7 +8,8 @@
         "hot": "mix watch --hot",
         "prod": "npm run production",
         "production": "mix --production",
-        "activity:commit": "node scripts/activity-commit.js"
+        "activity:commit": "node scripts/activity-commit.js",
+        "check:env": "node scripts/check-env.js"
     },
     "devDependencies": {
         "@popperjs/core": "^2.10.2",
