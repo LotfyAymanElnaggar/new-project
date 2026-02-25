@@ -13,3 +13,10 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+
+# local helpers
+.tmp/
+.cache/
+
+# coverage
+coverage/
